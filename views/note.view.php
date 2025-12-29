@@ -9,7 +9,7 @@
             <p class="mb-6">
                 <a href="/notes" class="text-blue-500 hover:underline">go back ...</a>
             </p>
-            <p><?php echo $note['body']; ?></p>
+            <p><?php echo htmlspecialchars($note['body']); ?></p>
     </div>
         <!-- /End replace -->
             
